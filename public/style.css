@@ -1,0 +1,239 @@
+#root {
+  margin: -8px;
+}
+
+.header {
+  padding: 20px 10px 5px 10px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.toggle-button {
+  height: 30px;
+  width: 60px;
+  background-color: white;
+  border: solid grey 2px;
+  border-radius: 20px;
+}
+
+.slider {
+  background-color: black;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+.body-container {
+  width: 90%;
+  height: 100px;
+  margin: 20px 5% 0 5%;
+  border-radius: 50px;
+}
+
+.banner-container {
+  padding: 30px 5%;
+}
+
+.banner-title {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #226500;
+  text-transform: uppercase;
+} /* #69ffbc */
+
+.banner-title h1 {
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: -10px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+}
+
+.banner-title h2 {
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+}
+
+.banner-buttons button {
+  margin: 10px 20px 100px 10px;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid black 1px;
+  background-color: white;
+  color: #226500;
+}
+
+.banner-title-br {
+  margin: -10px;
+}
+
+.about-container {
+  padding-top: 30px;
+  margin: 0 10%;
+  margin-bottom: 300px;
+}
+
+.about-me {
+  margin: 50px 0;
+}
+
+.languages-tools-container {
+  display: flex;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.lang-tool-container {
+  border: solid #226500 2px;
+  height: 53px;
+  border-radius: 25px;
+  display: flex;
+  padding: 5px;
+  width: 200px;
+}
+
+.lang-tool {
+  margin: auto 10px;
+}
+
+.lang-tool-img {
+  height: 40px;
+  width: 50px;
+  padding: 5px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.lang-tool-img-container {
+  height: 50px;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.service-container {
+  border: solid 2px #226500;
+  border-radius: 25px;
+  width: 200px;
+  padding: 20px 5px;
+}
+
+.service-title {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #226500;
+  text-transform: uppercase;
+}
+
+.subheading {
+  font-size: 1.6rem;
+  margin-top: 100px;
+}
+
+.text {
+  font-size: 1.2rem;
+}
+
+#projects {
+  margin: 0 10%;
+}
+
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 40px;
+  padding: 20px 0;
+}
+
+.project-img {
+  border: solid 2px #226500;
+  height: 256px;
+  width: 455px;
+  border-radius: 25px;
+}
+
+.projects-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 200px;
+}
+
+.projects-link {
+  color: grey;
+  text-align: end;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.contact-container {
+  padding: 10px;
+  margin: -1px;
+  margin-bottom: 50px;
+}
+
+.contact-container > h2 {
+  margin: 50px auto;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+  justify-content: center;
+}
+
+.contact > .text {
+  text-align: center;
+}
+
+.contact-link {
+  height: 75px;
+  width: 75px;
+  border-radius: 25px;
+  display: block;
+}
+
+.contact > a > img {
+  height: 50px;
+  width: 50px;
+  padding: 7.5px;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.projects-page {
+  width: 90%;
+  margin: 20px 5% 0 5%;
+  border-radius: 50px;
+}
+
+.bottom-padding {
+  height: 20px;
+}
