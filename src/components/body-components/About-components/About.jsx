@@ -1,6 +1,11 @@
 import React from "react";
 import LanguagesToolsComponent from "./LanguagesToolsComponent";
 import Services from "./Services";
+import  css from "../../../Images/css3-02-svgrepo-com.svg"
+import bootstrap from "../../../Images/bootstrap-fill-svgrepo-com.svg";
+import html from "../../../Images/html5-01-svgrepo-com.svg"
+import javascript from "../../../Images/js01-svgrepo-com.svg";
+import react from "../../../Images/react-svgrepo-com.svg";
 
 function About(props) {
   const themeText = { color: props.darkness ? "white" : "black" };
@@ -25,27 +30,27 @@ function About(props) {
       </h3>
       <div className="languages-tools-container">
         <LanguagesToolsComponent
-          image="/images/html5-01-svgrepo-com.svg"
+          image={html}
           darkness={props.darkness}
           text="HTML"
         />
         <LanguagesToolsComponent
-          image="/images/css3-02-svgrepo-com.svg"
+          image={css}
           darkness={props.darkness}
           text="CSS"
         />
         <LanguagesToolsComponent
-          image="/images/js01-svgrepo-com.svg"
+          image={javascript}
           darkness={props.darkness}
           text="JavaScript"
         />
         <LanguagesToolsComponent
-          image="/images/react-svgrepo-com.svg"
+          image={react}
           darkness={props.darkness}
           text="React"
         />
         <LanguagesToolsComponent
-          image="/images/bootstrap-fill-svgrepo-com.svg"
+          image={bootstrap}
           darkness={props.darkness}
           text="Bootstrap"
         />
