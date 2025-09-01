@@ -1,6 +1,6 @@
 import pomodoro from "../../Images/pomodoro.png";
 import pomodoroHighres from "../../Images/pomodoro-highres.png";
-import pomodoroLowres from "../../Images/pomodoro-Lowres.png";
+import pomodoroLowres from "../../Images/pomodoro-lowres.png";
 
 const projectslist = [
   {
