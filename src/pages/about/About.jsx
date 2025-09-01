@@ -22,13 +22,13 @@ function About(props) {
           I'm a self-taught web developer based in South Africa, specializing in
           sleek, responsive front-end development with a toe in backend
           fundamentals. My mission is to craft modern, dynamic websites that not
-          only stand out visually but also deliver seamlessly, intuitivly guide
+          only stand out visually but also seamlessly, intuitively guiding
           users. I thrive on creating interfaces that wow without overwhelming;
-          using purposeful animations, clean layouts, and thoughtful design to
-          guide users effortlessly. Accessibility is at the heart of my work,
-          ensuring every site I build reaches and resonates with a wider
-          audience. Whether it's a bold brand presence or a subtle, elegant
-          flow, I design with clarity, impact, and inclusivity in mind.
+          using purposeful animations, clean layouts, and thoughtful design.
+          Accessibility is at the heart of my work, ensuring every site I build
+          reaches and resonates with a wider audience. Whether it's a bold brand
+          presence or a subtle, elegant flow, I design with clarity, impact, and
+          inclusivity in mind.
         </p>
       </div>
       <h4 style={themeText} className="subheading languages-tools-title">
