@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import "./components.css";
 
 function Banner(props) {
   const [isMousedOver, setMouseOver] = useState(false);
@@ -18,7 +19,7 @@ function Banner(props) {
         <h1
           style={{
             color: props.darkness && "#69ffbc",
-            backgroundColor: props.darkness && "rgba(0, 0, 0, 0.4)",
+            backgroundColor: props.darkness && "#2a2a2cc5",
           }}
         >
           Welcome, my name is Tasneem Manga.
@@ -27,10 +28,10 @@ function Banner(props) {
         <h2
           style={{
             color: props.darkness && "#69ffbc",
-            backgroundColor: props.darkness && "rgba(0, 0, 0, 0.4)",
+            backgroundColor: props.darkness && "#2a2a2cc5",
           }}
         >
-          I am a full-stack <span>website developer</span>.
+          I am a frontend <span>website developer</span>.
         </h2>
 
         <div className="text banner-buttons">
@@ -42,8 +43,8 @@ function Banner(props) {
                     ? "5px 5px 0 #69ffbc"
                     : "5px 5px 0 #226500"
                   : null,
-                border: props.darkness && "solid white 1px",
-                backgroundColor: props.darkness && "black",
+                border: props.darkness && "solid #e4e4e4 1px",
+                backgroundColor: props.darkness && "#333335",
                 color: props.darkness && "#69ffbc",
               }}
               onMouseOver={toggleMouseOver}
@@ -61,8 +62,8 @@ function Banner(props) {
                     ? "5px 5px 0 #69ffbc"
                     : "5px 5px 0 #226500"
                   : null,
-                border: props.darkness && "solid white 1px",
-                backgroundColor: props.darkness && "black",
+                border: props.darkness && "solid #e4e4e4 1px",
+                backgroundColor: props.darkness && "#333335",
                 color: props.darkness && "#69ffbc",
               }}
               onMouseEnter={togggleMouseEnter}

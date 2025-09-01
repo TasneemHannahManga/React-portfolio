@@ -1,6 +1,6 @@
-import React from "react";
+import "./about.css";
 
-function LanguagesToolsComponent(props) {
+function Services(props) {
   return (
     <div
       style={{
@@ -9,19 +9,16 @@ function LanguagesToolsComponent(props) {
           ? "10px 10px 0 #69ffbc"
           : "10px 10px 0 #226500",
       }}
-      className="lang-tool-container"
+      className="service-container"
     >
-      <div className="lang-tool-img-container">
-        <img className="lang-tool-img" src={props.image}></img>
-      </div>
       <p
         style={{ color: props.darkness ? "white" : "black" }}
-        className="text lang-tool"
+        className="service-title"
       >
-        {props.text}
+        {props.title}
       </p>
     </div>
   );
 }
 
-export default LanguagesToolsComponent;
+export default Services;

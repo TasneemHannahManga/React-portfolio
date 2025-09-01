@@ -1,0 +1,89 @@
+/* Header */
+
+.header {
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.toggle-button {
+  height: 30px;
+  width: 60px;
+  background-color: #e4e4e4;
+  border: solid grey 2px;
+  border-radius: 20px;
+}
+
+.slider {
+  background-color: #333335;
+  height: 26px;
+  width: 26px;
+  border-radius: 50%;
+  margin: 2px;
+}
+
+/* Banner */
+
+.banner-container {
+  padding: 30px 5%;
+}
+
+.banner-title {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #226500;
+  text-transform: uppercase;
+} /* #69ffbc */
+
+.banner-title h1 {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgba(200, 200, 200, 0.4);
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.banner-title h2 {
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  background-color: rgba(200, 200, 200, 0.4);
+  display: inline-block;
+  font-size: 1.7rem;
+}
+
+.banner-buttons button {
+  margin: 10px 20px 100px 10px;
+  font-size: 1.1rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid #333335 1px;
+  background-color: #e4e4e4;
+  color: #226500;
+}
+
+.banner-title-br {
+  margin: -10px;
+}
+
+.divider {
+  width: 80%;
+  opacity: 0.6;
+  border-bottom: 0;
+}
+
+/* Body */
+
+.body-container {
+  width: 90%;
+  height: 100px;
+  margin: 20px 5% 0 5%;
+  border-radius: 50px;
+}
+
+.bottom-padding {
+  height: 20px;
+}

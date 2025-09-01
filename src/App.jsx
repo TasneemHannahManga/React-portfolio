@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
-import Header from "./Header";
-import darkBackground from "../Images/Dark-backgroound.svg";
-import lightBackground from "../Images/Light-background.svg";
-import Body from "./body-components/Body";
+import { useState, useEffect } from "react";
+import Header from "./components/Header";
+import darkBackground from "./Images/Dark-backgroound.svg";
+import lightBackground from "./Images/Light-background.svg";
+import Body from "./components/Body";
 
 function App() {
   const theme = localStorage.getItem("darkness");
@@ -28,9 +28,11 @@ function App() {
         backgroundImage: isDark
           ? `url(${darkBackground})`
           : `url(${lightBackground})`,
-        backgroundSize: "100%",
+        backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         backgroundAttachment: "fixed",
+        height: "100%",
+        maxWidth: "100vw",
       }}
     >
       <Header onToggle={toggleTheme} darkness={isDark} />
